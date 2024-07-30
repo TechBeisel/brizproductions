@@ -1,0 +1,128 @@
+/* ----- Views ----- */
+ /* --- Mobile nav --- */ 
+@media screen and (max-width: 480px) {
+	.sideNav {
+		display: none;
+	}
+	.pageCont {
+		margin-left: 5px;
+		margin-top: 155px;
+	}
+}
+
+/* --- Main Nav --- */
+@media screen and (min-width: 480px) {
+	.topNav {
+		display: none;
+	}
+	.pageCont{
+		margin-left: 155px;
+		margin-top: 105px;
+	}
+}
+
+
+/* ----- Main CSS ----- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.pageHead {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 100px !important;
+	text-align: center;
+	background: black;
+}
+
+.pageHead h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 85px;
+	color: white;
+	text-shadow: 5px 5px 8px blue, 0 0 50px red, 0 0 10px yellow;
+}
+
+.body {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+	
+.topNav {
+	width: 100%;
+	margin-top: 100px;
+	position: fixed;
+	background: black;
+}
+.tlink#top {
+	float: left;
+	border: none;
+	outline: none;
+	width: 25%;
+	font-size: 17px;
+	padding: 14px 16px;
+}
+
+.sideNav {
+	width: 150px;
+	height: 100%;
+	margin-top: 100px;
+	position: fixed;
+	background: black;
+}
+
+.tlink#side {
+	height: 100px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	padding: 14px 16px;
+	color: black;
+}
+
+.pageCont {
+	padding: 5px;
+	height: 90%;
+}
+
+.cont {
+	height: 100%;
+	border: 1px solid green;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+.cont#about, .cont#work, .cont#contact {
+	display: none;
+}
+
+.himg {
+	width: 400px;
+	height: 500px;
+}
+
+.pageFoot {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 25px !important;
+	font-size: 12px;
+	text-align: center;
+	background: black;
+	color: white;
+}
