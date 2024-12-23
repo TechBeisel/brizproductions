@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/contact.css" />
+		<script src="../js/contact.js"></script>
+		<title>Briz Productions Contact</title>
+	</head>
+	<body>
+		<div class="body">
+			<div class="header">
+				<form action="https://api.web3forms.com/submit" method="POST" id="form">
+				<input type="hidden" name="access_key" value="d66177e8-c3d0-425e-b5c2-96c7647d063b" />
+				<input type="hidden" name="subject" value="New Submission from BrizProductions Website" />
+				<input type="checkbox" name="botcheck" id="" style="display: none;" />
+				</div>
+			<div class="form">
+				<div class="item">
+					<label form="name" class="label">Full Name</label>
+					<input type="text" name="name" id="name" placeholder="John Doe" required class="input" />
+					</div>
+				<div class="item">
+					<label form="email" class="label">Email</label>
+					<input type="text" name="email" id="email" placeholder="You@Company.com" required class="input" />
+					</div>
+				<div class="item">
+					<label form="phone" class="label">Phone Number</label>
+					<input type="text" name="phone" id="phone" placeholder="+1(888)555-1234" required class="input" />
+					</div>
+				<div class="item">
+					<div class="dates">
+						<div class="start">
+							<label form="start" class="label">Start Date</label>
+							<input type="date" name="start" id="start" required class="input" />
+							</div>
+						<div class="end">
+							<label form="end" class="label">End Date</label>
+							<input type="date" name="end" id="end" required class="input" />
+							</div>
+						</div>
+					</div>
+				<div class="item">
+					<label form="message" class="label">Details</label>
+					<input type="text" name="message" id="message" placeholder="Details" required class="message" />
+					</div>
+				<div class="item">
+					<button type="submit" class="button">Send Message</button>
+					</div>
+				</div>
+			<p class="results" id="results"></p>
+			</div>
+		</body>
+	</html>

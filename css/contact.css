@@ -1,0 +1,84 @@
+/* ----- Contact Form CSS ----- */
+/* - Body - */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* - Form - */
+.body {
+	background-color: red;
+	width: 500px;
+	height: 600px;
+	padding: 10px 0;
+}
+
+.header {
+	
+}
+
+.form {
+	width: 90%;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.item {
+	width: 100%;
+	padding-top: 5px;
+}
+
+.label {
+	font-size: 20px;
+}
+
+.input {
+	width: 90%;
+	padding: 10px 5px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.dates {
+	
+}
+
+.start {
+	float: left;
+	padding-left: 10px;
+}
+
+.end {
+	float: right;
+	padding-right: 10px;
+}
+
+.message {
+	width: 90%;
+	height: 200px;
+}
+
+.button {
+	border: none;
+	width: 90%;
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.button:hover {
+	background-color: blue;
+}
+
+.results {
+	
+}
