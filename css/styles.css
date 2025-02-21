@@ -12,6 +12,7 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	background-color: #000096;
 }
 
 .body {
@@ -73,7 +74,7 @@ body {
 .header {
 	line-height: 154px;
 	height: 154px;
-	background-color: #ff0000;
+	background-color: #dcdcdc;
 	border-radius: 25px;
 	border: 2px solid #000000;
 	padding-left: 25px;
@@ -103,7 +104,7 @@ body {
 	padding-left: 50px;
 	font-size: 85px;
 	color: white;
-	text-shadow: 5px 5px 8px blue, 0 0 50px red, 0 0 10px yellow;
+	text-shadow: 5px 5px 8px blue, 0 0 50px black, 0 0 10px blue;
 	float: none;
 	text-align: left;
 }
@@ -122,7 +123,7 @@ body {
 
 /* - Menu - */
 .menu {
-	background-color: #00ff00;
+	background-color: #dcdcdc;
 	border-radius: 25px;
 	border: 2px solid #000000;
 	padding: 20px;
@@ -135,7 +136,7 @@ body {
 }
 
 .tablink {
-	border: none;
+	border: 2px outsdet black;
 	outline: none;
 	padding: 20px;
 	width: 100%;
@@ -143,12 +144,13 @@ body {
 }
 
 .tablink:hover {
-	background-color: #ffff00;
+	background-color: #ffffff;
+	border: 2px inset black;
 }
 
 /* - Content - */
 .content {
-	background-color: #0000ff;
+	background-color: #dcdcdc;
 	border-radius: 25px;
 	border: 2px solid #000000;
 	text-align: center;
@@ -205,7 +207,7 @@ body {
 
 /* - Footer - */
 .footer {
-	background-color: #f0f0f0;
+	background-color: #dcdcdc;
 	border-radius: 25px;
 	border: 2px solid #000000;
 	padding-left: 20px;
