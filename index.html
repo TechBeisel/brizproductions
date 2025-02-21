@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="js/menu.js"></script>
+		<script src="js/modal.js"></script>
+		<title>Briz Productions</title>
+	</head>
+	<body>
+		<div class="body">
+			<div class="header">
+				<img src="img/pic.jpg" class="himg" id="pic" alt="Bryan Beisel" onclick="openModal('pic')" />
+				<h1>Briz Productions</h1>
+				</div>
+			<div class="row">
+				<div class="col-3 col-s-3 menu">
+					<ul>
+						<li><button class="tablink" onclick="openPage('home', this, 'darkgrey')" id="defaultOpen">Home</button></li>
+						<li><button class="tablink" onclick="openPage('about', this, 'darkgrey')">About</button></li>
+						<li><button class="tablink" onclick="openPage('work', this, 'darkgrey')">Work</button></li>
+						<li><button class="tablink" onclick="openPage('contact', this, 'darkgrey')">Contact</button></li>
+						</ul>
+					</div>
+				<div class="col-9 col-s-9 content">
+					<div class="tabcontent" id="home">
+						<h1>Bryan Beisel</h1>
+						<h3>Audio Visual Specialist</h3>
+						<img src="img/pic.jpg" class="mimg" />
+						</div>
+					<div class="tabcontent" id="about">
+						About Me
+						</div>
+					<div class="tabcontent" id="work">
+						<div class="row">
+							<div class="column">
+								<img src="img/img01.jpg" alt="caption1" class="gimg" id="img01" onclick="openModal('img01')" />
+								<img src="img/img02.jpg" alt="caption2" class="gimg" id="img02" onclick="openModal('img02')" />
+								<img src="img/img03.jpg" alt="caption3" class="gimg" id="img03" onclick="openModal('img03')" />
+								<img src="img/img04.jpg" alt="caption4" class="gimg" id="img04" onclick="openModal('img04')" />
+								<img src="img/img05.jpg" alt="caption5" class="gimg" id="img05" onclick="openModal('img05')" />
+								</div>
+							</div>
+						<div class="row">
+							<div class="column">
+								<img src="img/img06.jpg" alt="caption6" class="gimg" id="img06" onclick="openModal('img06')" />
+								<img src="img/img07.jpg" alt="caption7" class="gimg" id="img07" onclick="openModal('img07')" />
+								<img src="img/img08.jpg" alt="caption8" class="gimg" id="img08" onclick="openModal('img08')" />
+								<img src="img/img09.jpg" alt="caption9" class="gimg" id="img09" onclick="openModal('img09')" />
+								<img src="img/img10.jpg" alt="caption10" class="gimg" id="img10" onclick="openModal('img10')" />
+								</div>
+							</div>
+						<div class="row">
+							<div class="column">
+								<img src="img/img11.jpg" alt="caption11" class="gimg" id="img11" onclick="openModal('img11')" />
+								<img src="img/img12.jpg" alt="caption12" class="gimg" id="img12" onclick="openModal('img12')" />
+								<img src="img/img13.jpg" alt="caption13" class="gimg" id="img13" onclick="openModal('img13')" />
+								<img src="img/img14.jpg" alt="caption14" class="gimg" id="img14" onclick="openModal('img14')" />
+								<img src="img/img15.jpg" alt="caption15" class="gimg" id="img15" onclick="openModal('img15')" />
+								</div>
+							</div>
+						<div class="row">
+							<div class="column">
+								<img src="img/img16.jpg" alt="caption16" class="gimg" id="img16" onclick="openModal('img')" />
+								<img src="img/img17.jpg" alt="caption17" class="gimg" id="img17" onclick="openModal('img17')" />
+								<img src="img/img18.jpg" alt="caption18" class="gimg" id="img18" onclick="openModal('img18')" />
+								<img src="img/img19.jpg" alt="caption19" class="gimg" id="img19" onclick="openModal('img19')" />
+								<img src="img/img20.jpg" alt="caption20" class="gimg" id="img20" onclick="openModal('img20')" />
+								</div>
+							</div>
+						</div>
+					<div class="tabcontent" id="contact">
+						<h1>Contact</h1>
+						<p class="cp">Would you like to book for an event?</p>
+						<iframe src="inc/contact.html" class="iframe"></iframe>
+						</div>
+					</div>
+				</div>
+			<div class="footer">
+				Established Jan 2024
+				</div>
+			</div>
+			<div id="myModal" class="modal">
+				<span class="close" onclick="closeModal('')">&times;</span>
+				<img class="modal-content" id="moddisplay" />
+				<div id="caption"></div>
+				</div>
+	</body>
+</html>
